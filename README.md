@@ -14,18 +14,20 @@ Also this:
 ![Alt Text](include/le-gif.gif)
 
 How to:
--Buy a rp2040 based microcontroller, and a S1,S2,Key encoder. Maybe cales too!
--A usb cable
--The project is set to: rp2040 Zero
--open project, compile, upload the resulting ef2 file at: .pio\build\pico\firmware.elf
--done
+- Buy a rp2040 based microcontroller, and a S1,S2,Key encoder. Maybe cables too!
+- The project is set to: rp2040 Zero
+- open project, compile, upload the resulting ef2 file from: [project folder].pio\build\pico\firmware.elf
+- done
+
 Wiring:
+
 #see
-int S1_pin = 29;
-int S2_pin =28;
-int mykey = 27 ;
+- int S1_pin = 29;
+- int S2_pin =28;
+- int mykey = 27 ;
+
 #see
-0v-to-0v
-5v-to-5v
+- 0v-to-0v
+- 5v-to-5v
 
 Btw: this is a vscode+plarform.io project, Mandril!!!
