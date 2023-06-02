@@ -1,0 +1,30 @@
+#include <Keyboard.h>
+#include <Arduino.h>
+//KEY_VOLUME_INCREMENT
+// KEY_VOLUME_DECREMENT
+boolean running = false;
+unsigned int tecla = KEY_VOLUME_INCREMENT;
+uint8_t bytes[2] = {0x00,0xE9};
+uint8_t bytes2[2] = {0xE9,0x00};
+void setup() 
+{
+  // make pin 2 an input and turn on the 
+  // pullup resistor so it goes high unless
+  // connected to ground:
+  pinMode(2, INPUT_PULLUP);
+  Keyboard.begin();
+}
+
+void loop() 
+{
+  //if the button is pressed
+  
+  
+  
+    //Send the message
+    Keyboard.consumerPress(KEY_VOLUME_INCREMENT);
+    delay(100);
+    Keyboard.consumerRelease();
+    delay(1000);
+
+}
