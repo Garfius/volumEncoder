@@ -5,7 +5,8 @@ Have you also noticed how big and keep-away thing is the amplifier, and you ONLY
 USB volume+mute *1
 
 *1 Limited offer: now with annoying RGB!!
-This shit:
+
+This shit uses generic keyCodes, all-compatible:
 
 ![Alt Text](include/IMG_20230602_151845.jpg)
 
