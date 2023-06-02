@@ -11,7 +11,7 @@ This shit:
 
 Also this:
 
-![Alt Text](include/VID-20230527-WA0006.mp4)
+![Alt Text](include/le-gif.gif)
 
 How to:
 -Buy a rp2040 based microcontroller, and a S1,S2,Key encoder. Maybe cales too!
@@ -27,3 +27,5 @@ int mykey = 27 ;
 #see
 0v-to-0v
 5v-to-5v
+
+Btw: this is a vscode+plarform.io project, Mandril!!!
